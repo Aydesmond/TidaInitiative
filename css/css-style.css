@@ -488,10 +488,11 @@ ul {
   text-align: center;
 }
 .banner-area .banner-img img:nth-child(1) {
-  animation: border-transform-default 10s linear infinite alternate forwards;
+  /* animation: border-transform-default 10s linear infinite alternate forwards; */
   max-width: 550px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 300px;
 }
 .banner-area .banner-img img:nth-child(2) {
   position: absolute;
@@ -890,7 +891,8 @@ ul {
 }
 .about-area .about-img img {
   width: 100%;
-  animation: border-transform-default 10s linear infinite alternate forwards;
+  border-radius: 40px;
+  /* animation: border-transform-default 10s linear infinite alternate forwards; */
 }
 .about-area .about-content {
   margin-bottom: 30px;
