@@ -117,7 +117,7 @@
                 <div class="row">
 
                     <!-- Tida -->
-                    
+                
                     <div class="col-sm-6 col-lg-4">
                         <div class="team-item">
                             <div class="top">
@@ -126,7 +126,6 @@
                             <div class="bottom">
                                 <h3>Tida Ndure</h3>
                                 <span>Founder & Strategic Lead</span> <br>
-                                <!-- <a href="#modal-12" class="common-btn" data-toggle="modal" data-target="#exampleModalCenter">View Profile </a> -->
                                 <button class="common-btn" id="open-popup-modal"> View Profile</button>
 
                             </div>
@@ -143,7 +142,7 @@
                             <div class="bottom">
                                 <h3>Mbayang Ndiaye</h3>
                                 <span>Administrative Secretary </span> <br>
-                                <a href="#modal-13" class="common-btn" href="#">View Profile</a>
+                                <button class="common-btn" id="open-popup-modal-2"> View Profile</button>
                             </div>
                         </div>
                     </div>
@@ -312,55 +311,19 @@ Tida Ndure is the founder and strategic lead of TIDA. She brings over a decade o
   </div>
 </div>
 
+<!-- new mba mockup -->
+<div id="popup-modal-2" class="modal">
+  <div class="modal-content">
+    <span class="modal-close-2">&times;</span>
+    <h2>Mbayang Ndiaye</h2>
+         <h3>Administrative Secretary</h3>
 
-
-
-        <!-- Tida Profile -->
-<!-- <div data-ml-modal id="modal-12">
-	<a href="#!" class="modal-overlay"></a>
-	<div class="modal-dialog modal-dialog-lg">
-		<a href="#!" class="modal-close">&times;</a>
-		<h3>Tida Ndure</h3>
-    
-		<div class="modal-content">
-             <h3>Founder & Strategic Lead</h3>
-        <p> <strong>MSc Public Policy | BA History & International Studies</strong></p>
-
-<p>
-Tida Ndure is the founder and strategic lead of TIDA. She brings over a decade of experience in community organising, diplomacy, education advocacy, and youth empowerment across Africa and the UK. </p>
-
-<p> holds an MSc in Public Policy and a BA in History and International Studies, and has completed extensive training in communication, leadership, business management, project management, diplomacy, and health and welfare. She previously worked with the Ministry of Foreign Affairs as a State Protocol Officer and served as a youth advocate with the United Nations.</p>
-
- <p>Her commitment to social impact is demonstrated through her extensive work with international bodies such as ECOWAS, the Michelle Obama Foundation on girls’ education, and various universities and government institutions on youth-led empowerment campaigns. She has successfully secured funding from ECOWAS, private philanthropists, and academic institutions to deliver high-impact programmes focused on storytelling, education, and social development.</p>
-
-<p>As a former founder of a non-profit organisation active in five African countries, she led transformative story campaigns and empowerment projects focused on education and enlightenment. Her passion for youth development is matched by her skill in public engagement . She is the recipient of two academic scholarships and an award for excellence in youth education and community service.</p>
-
-<p>Tida brings vision, experience, and deep commitment to building migrant-led, culturally rooted, and justice-focused work at TIDA. </p>
-
-			<hr>
-			<p class="center"><a href="#!" class="btn btn-default">Close</a></p>
-		</div>
-		
-	</div>
-</div> -->
-
-
-
-       <!-- Mba Profile -->
-<!-- <div data-ml-modal id="modal-13">
-	<a href="#!" class="modal-overlay"></a>
-	<div class="modal-dialog modal-dialog-lg">
-		<a href="#!" class="modal-close">&times;</a>
-		<h3>Mbayang Ndiaye</h3>
-    
-		<div class="modal-content">
-             <h3>Administrative Secretary</h3>
-
-<p>
+   <p>
 Mbayang Ndiaye serves as the Administrative Secretary at TIDA, bringing over a decade of hands-on experience from her work in the UK’s care and support sector. A long-time Manchester resident and member of the diaspora community, Mbayang has a deep understanding of the challenges faced by racialised and culturally diverse families, particularly those navigating the UK’s public service systems.
- </p>
+</p>
 
 <p> Her professional background includes extensive training in safeguarding, care work, and community support, equipping her with the skills to work compassionately and effectively across a range of complex needs. Fluent in both English and French, she plays a key role in making TIDA’s communication accessible, inclusive, and culturally responsive.
+
 </p>
 
  <p>Mbayang is especially passionate about supporting families affected by health inequalities, disability, and social exclusion. Her calm presence, cultural sensitivity, and strong interpersonal skills make her a trusted point of contact for many in the community.
@@ -368,13 +331,10 @@ Mbayang Ndiaye serves as the Administrative Secretary at TIDA, bringing over a d
 
 <p>With her lived experience, commitment to social justice, and practical knowledge, Mbayang helps ensure that TIDA’s day-to-day operations reflect the care, respect, and inclusion we aim to build in wider society.</p>
 
-</p>
-			<hr>
-			<p class="center"><a href="#!" class="btn btn-default">Close</a></p>
-		</div>
-		
-	</div>
-</div> -->
+  </div>
+</div>
+
+
 
         
 
@@ -505,6 +465,25 @@ Mbayang Ndiaye serves as the Administrative Secretary at TIDA, bringing over a d
         <script>var modal = document.getElementById('popup-modal');
 var btn = document.getElementById("open-popup-modal");
 var span = document.getElementsByClassName("modal-close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}</script>
+
+<!-- second script -->
+  <script>var modal = document.getElementById('popup-modal-2');
+var btn = document.getElementById("open-popup-modal-2");
+var span = document.getElementsByClassName("modal-close-2")[0];
 
 btn.onclick = function() {
   modal.style.display = "block";
