@@ -3736,3 +3736,10 @@ ul {
     grid-template-columns: 1fr;
   }
 }
+
+
+.fund{
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 80%;
+}
