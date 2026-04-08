@@ -406,7 +406,7 @@ ul {
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
   padding-left: 30px;
-  color: #fff;
+  color: #013f22;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover:before, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus:before, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active:before {
   opacity: 1;
