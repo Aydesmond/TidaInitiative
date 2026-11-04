@@ -27,20 +27,23 @@ This files table contents are outlined below>>>>>
 ** - Go Top CSS
 ** - Preloader CSS
 */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 /*----- Default CSS -----*/
 body {
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #fff;
   color: #757575;
+}
+
+.blacko li{
+  color: #000!important;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #013f22;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
@@ -3606,7 +3609,7 @@ ul {
 .tida-event {
   background: linear-gradient(135deg, #8b0000, #f4a300);
   padding: 80px 20px;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
 }
 
