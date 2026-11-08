@@ -1,762 +1,266 @@
 <!DOCTYPE html>
-<html lang="zxx">
-    <head>
-        <!--=== Meta Tags ===-->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="TIDA - Together for Inclusion, Development and Action">
-          <meta name="keywords" content="TIDA (The Together Initiative for Diverse Abilities)n">
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Amplifying voices. Building collective power. Influencing systemic change.">
+    <meta name="theme-color" content="#013f22">
+    <title>Together for Inclusion and Development (TIDA)</title>
+    <link rel="icon" type="image/png" href="favicons/img-favicon.png">
+    <link rel="stylesheet" href="css/css-icofont.min.css">
+    <link rel="stylesheet" href="css/tida.css">
+    <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
 
-        <!--=== Link of CSS ===-->
-        <link rel="stylesheet" href="css/css-bootstrap.min.css">
-        <link rel="stylesheet" href="css/css-icofont.min.css">
-        <link rel="stylesheet" href="css/css-meanmenu.css">
-        <link rel="stylesheet" href="css/css-modal-video.min.css">
-        <link rel="stylesheet" href="css/fonts-flaticon.css">
-        <link rel="stylesheet" href="css/css-animate.min.css">
-        <link rel="stylesheet" href="css/css-lightbox.min.css">
-        <link rel="stylesheet" href="css/css-owl.carousel.min.css">
-        <link rel="stylesheet" href="css/css-owl.theme.default.min.css">
-        <link rel="stylesheet" href="css/css-odometer.min.css">
-        <link rel="stylesheet" href="css/css-nice-select.min.css">
-        <link rel="stylesheet" href="css/css-style.css">
-        <link rel="stylesheet" href="css/css-responsive.css">
-        <link rel="stylesheet" href="css/css-theme-dark.css">
+<div class="topbar">
+    <div class="container">
+        <div class="loc"><i class="icofont-location-pin"></i><span>Manchester, United Kingdom</span></div>
+        <ul class="soc">
+            <li class="follow"><span>Follow Us:</span></li>
+            <li><a href="#" aria-label="Facebook"><i class="icofont-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/tidainitiative/" aria-label="Instagram" target="_blank"><i class="icofont-instagram"></i></a></li>
+            <li><a href="#" aria-label="LinkedIn"><i class="icofont-linkedin"></i></a></li>
+        </ul>
+    </div>
+</div>
 
-        <!--=== Title & Favicon ===-->
-        <title>TIDA - Together for Inclusion, Development and Action</title>
-        <link rel="icon" type="image/png" href="favicons/img-favicon.png">
-    </head>
-    <body>
-
-        <!-- Header -->
-        <div class="header-area">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-4">
-                        <div class="left">
-                            <ul>
-                                <li>
-                                    <i class="icofont-location-pin"></i>
-                                    <a href="#">United Kingdom</a>
-                                </li>
-                                <!-- <li>
-                                    <i class="icofont-ui-call"></i>
-                                    <a href="tel:0123456987">+0123-456-987</a>
-                                </li> -->
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-8">
-                        <div class="right">
-                            <ul>
-                                <li>
-                                    <span>Follow Us:</span>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icofont-facebook"></i>
-                                    </a>
-                                </li>
-                                                                <li>
-                                    <a href="#">
-                                        <i class="icofont-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icofont-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- End Header -->
-        
-        <!-- Navbar -->
-        <div class="navbar-area sticky-top">
-            <!-- Menu For Mobile Device -->
-            <div class="mobile-nav">
-                <a href="index.html" class="logo">
-                    <img src="images/img-logo-two.png" alt="Logo">
-                </a>
-            </div>
-
-            <!-- Menu For Desktop Device -->
-            <div class="main-nav">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="images/img-logo.png" class="logo-one" alt="Logo">
-                            <img src="images/img-logo-two.png" class="logo-two" alt="Logo">
-                        </a>
-                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle active">Home</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a href="about.html" class="nav-link">About Us</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="#where" class="nav-link">Where We Work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#get" class="nav-link">Get Involved</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#our" class="nav-link">Projects</a>
-                               <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                                    <li><a class="dropdown-item" href="events/theTogetherPlan.html">The Together Plan</a></li>
-                                </ul>
-                            </li>
-                          <li class="nav-item">
-                                <a href="team.html" class="nav-link">Team</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#footer" class="nav-link">Contact</a>
-                            </li>
+<header class="nav">
+    <div class="container">
+        <a class="brand" href="index.html"><img src="images/img-logo.png" alt="TIDA"></a>
+        <div class="nav-actions">
+            <div class="menu-wrap" id="menu">
+                <ul class="menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="programmes.html">Our Programmes</a></li>
+                    <li><a href="inclusion.html">Our Commitment</a></li>
+                    <li class="has-sub">
+                        <a href="projects.html">Our Projects</a>
+                        <button class="sub-toggle" type="button" aria-label="Show Our Projects pages" aria-expanded="false"><i class="icofont-simple-down"></i></button>
+                        <ul class="sub">
+                            <li><a href="events/theTogetherPlan.html">The Together Plan</a></li>
+                            <li><a href="together-we-grow.html">Together We Grow</a></li>
                         </ul>
-                            <div class="side-nav">
-                                <a class="donate-btn" href="#">
-                                    Donate
-                                    <i class="icofont-heart-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+                    </li>
+                    <li><a href="impact.html">Our Impact</a></li>
+                    <li><a href="work-with-us.html">Work With Us</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
             </div>
+            <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
         </div>
-        <!-- End Navbar -->
+    </div>
+</header>
 
-        <!-- Banner -->
-        <div class="banner-area">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <div class="banner-content">
-                                  
-                                    <h1>TIDA (The Together Initiative for Diverse Abilities)</h1>
-                                    <p>Championing Migrant Justice, storytelling and Community Inclusion in the UK</p>
-                                    <div class="banner-btn-area">
-                                        <a class="common-btn banner-btn" href="team.html">Our Team</a>
-                                        <a class="common-btn" href="#">Donate Now</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="banner-img">
-                                    <img src="images/banner-banner-main1.jpg" alt="Banner">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Banner -->
-
-        <!-- Section 1 -->
-        <section class="dream-area pt-100 pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <span class="sub-title"></span>
-                    <h3>Together for Inclusion, Development and Action</h3>
-                    <p>At TIDA, we are a migrant-led organisation committed to bulding a just and inclusive society by challenging harmful narratives, dismantling systemic injustice, and amplifying the voices of marginalised communities. Our mission is simple but powerful: to build collective voice, shifts public perception, and drives real, systemic change.</p> <br>
- 
-                       <p> From disability empowerment to youth advocacy, from education to inclusive healthcare, TIDA is committed to building a stronger, more united society right here in the UK.
-                        </p>
-                </div>
-            </div>
-        </section>
-        <!-- Section 1 end -->
-
-        <!-- Upcoming Project -->
-             <section class="event-area pt-100 pb-70">
-                <div class="container">
-                    <div class="section-title">
-                        <!-- <span class="sub-title">Upcoming Project</span> -->
-                        <h2>The Together Plan</h2>
-                        <div class="upcoming">
-                        <p>The Together Plan is our groundbreaking initiative to support families of autistic children from racialised backgrounds. Designed with cultural sensitivity and real-world challenges in mind, it bridges the gap in services, fosters connection, and champions advocacy for systemic change.</p> <br>
-                        <p>Through heartfelt stroytelling, we bring their experiences to light, uncovering the barriers they face and the strength they show every day. These stories are not just personal journeys, they are powerful calls for change in healthcare, education and society.</p>
-                                            <a class="playbtn" href="events/theTogetherPlan.html">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        View Pictures
-                      </a>
-                    </div>
-                </div>
-            </section>
-        <!-- Upcoming Project -->
-
-        <!-- About -->
-                <div class="about-area pt-100 pb-70" id="about">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <div class="about-img">
-                                    <img src="images/about-about-main1.jpg" alt="About">
-                                </div>
-                            </div>
-        
-                            <div class="col-lg-6">
-                                <div class="about-content">
-                                    <div class="section-title">
-                                        <span class="sub-title">About us</span>
-                                        <h2>Who We Are</h2>
-                                    </div>
-                                    <p>Together for Inclusion and Development (TIDA) is a community-focused social enterprise committed to building inclusive, empowered and connected communities.</p>
-                                    <p>We work alongside individuals, families and organisations to address social inequalities, promote inclusion and create opportunities for positive change. Our work focuses on supporting marginalised and underrepresented communities, particularly families facing barriers to accessing services, information and opportunities.</p>
-                                    <a class="common-btn" href="about.html">Read More</a>
-                                </div>
-                            </div>
-        
-                        </div>
-                    </div>
-                </div>
-        <!-- End About -->
-
-    <!--=== Feature ===-->
-        <div class="feature-area pt-100 pb-70">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="feature-item">
-                      
-                            <h3 class="mission">
-                                Our Vision
-                             </h3>
-                            <p>We envision a society Built on justice, care and collective belonging, where ,migrants, racialised communities are not only included but celebrated. Where stories are recognised as powerful forces for change. We aim to transform how society understands difference, dismantle systematic barriers, and build a future rooted in dignity, equity, and shared humanity.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="feature-item two">
-                 
-                            <h3 class="mission">
-                               Our Mission
-                            </h3>
-                            <p><li>To amplify the voices and leadership of migrant and diaspora communities - To shift public narratives through storytelling, advocacy, and dialogue</li>
-                            <li>To foster collective organising and cross-community solidarity</li>
-                        <li>Influence policies and practices</li>
-                    <li>Build a more just, caring , and inclusive society</li> <br> </p> 
-   
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="feature-item three">
-                            
-                            <h3 class="mission">
-                                Where We Work
-                            </h3>
-                            <p>We work across the Uk- bridging communities through local partnerships, peer support, and inclusive development.</p> <br> <br> <br> 
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--=== End Feature ===-->
-
-    <!-- The Together Plan -->
-                <div class="about-area pt-100 pb-70" id="where">
-                    <div class="container">
-                        <div class="row align-items-center">        
-                            <div class="col-lg-6">
-                                <div class="about-content">
-                                    <div class="section-title">
-                                  
-                                        <h2>The Together Plan</h2>
-                                    </div>
-                                    <p>A creative, healing, and strategic storytelling project led by migrants, for migrants.</p>
-                                    <h4>What is The Together Plan</h4>
-                                    <p>TIDA Initiative is a cross cultural project supporting families raising children with disabilities (especially autism), with a focus on racialises and culturally diverse communities in the UK
-                                        We understand that cultural stigma, lack of information, and limited support networks often leave families feeling isolated. The Together Plan bridges these gaps through culturally relevant resources, advocacy, and community- driven support systems. By telling these stories, we expose what needs to change and speak collective action to make it happen.
-                                        </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="about-img">
-                                    <img src="images/the-together-plan.jpg" alt="About">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    <!-- End The Together Plan -->
-
-    <!-- Get Involved -->
-        <section class="donations-area pt-100 pb-70" id="get">
-            <div class="container">
-                <div class="section-title">
-                    <span class="sub-title">Get Involved</span>
-                    <h2>Join the Movement</h2>
-                </div>
-                <div class="row">
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="donation-item">
-                            <div class="img">
-                                <img src="images/Volunteer.jpg" alt="Donation">
-                            </div>
-                            <div class="inner">
-                                <div class="top">
-                                    <h3>
-                                       Volunteer With Us
-                                    </h3>
-                                    <p>Give your time, skills, or voice to make a meaningful impact.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="donation-item">
-                            <div class="img">
-                                <img src="images/partner-with-us.jpg" alt="Donation">
-                            </div>
-                            <div class="inner">
-                                <div class="top">
-                                    <h3>
-                                        Partner With Us
-                                    </h3>
-                                    <p>We collaborate with schools, organisations, and community groups to expand our reach.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="donation-item">
-                            <div class="img">
-                                <img src="images/donation-donation3.jpg" alt="Donation">
-                            </div>
-                            <div class="inner">
-                                <div class="top">
-                                    <h3>
-                                     Donate Today
-                                    </h3>
-                                    <p>Your generosity helps us create safe spaces, fund vital services, and amplify unheard voices.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-    <!-- End Get Involved -->
-
-    <!-- CTA  -->
-        <section class="event-area pt-100 pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Become a TIDA Advocate</h2>
-                    <div class="upcoming">
-                    <p>Be a voice for change.</p> 
-                    <a class="playbtn" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        DONATE NOW
-                      </a>
-                      
-                </div>
-            </div>
-        </section>
-
-     <!-- CTA ENDS -->
-
-     <!-- Make a donation -->
-     <div class="benefit-area pt-100 pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2>Make a donation</h2>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="benefit-item">
-                        <img src="#" alt="">
-                        <h3>Our Goals</h3>
-                 <li id="goals">Improve access to autism and disability resources in underserved communities</li>
-                 <li id="goals">Empower families with education, Training and peer support</li>
-                 <li id="goals">Advocate for inclusive policies and community practices</li>
-                 <li id="goals">Promote inclusive practices and break down cultural stigma</li>
-
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="benefit-item two">
-                        <img src="#" alt="">
-                        <h3>Our Programmes</h3>
-                        <li id="goals">Story circles and community dialogues <br>
-                            A creative, healing and strategic storytelling project led by migrants for migrants
-                            </li>
-                        <li id="goals">Civic power and participation <br>
-                            Campaigns that support migrants especially youth and women, to shape public life and challenge injustice
-                            </li>
-                        <li id="goals">Women’s leadership and Empowerment <br>
-                            Building the leadership and confidence of women from diaspora communities
-                            </li>
-                    </div>
-                </div>
-
-
+<main>
+<section class="hero">
+    <div class="hero__bg" role="img" aria-label="Hands joined together"></div>
+    <div class="container">
+        <div class="hero__content">
+            <span class="hero__rule"></span>
+            <h1>
+                <span class="hl" data-split>Amplifying Voices.</span>
+                <span class="hl" data-split>Building Collective Power.</span>
+                <span class="hl" data-split>Influencing Systemic Change.</span>
+            </h1>
+            <p data-reveal>Together for Inclusion and Development (TIDA) is a migrant-led organisation based in Manchester, working alongside migrant and diaspora communities to advance inclusion, strengthen leadership and influence systemic change.</p>
+            <div class="hero__btns" data-reveal>
+                <a class="btn" href="programmes.html">Explore Our Programmes</a>
+                <a class="btn btn--ghost" href="projects.html">Our Projects</a>
             </div>
         </div>
     </div>
-    <!-- Make a donation ends -->
-
-    <!-- TIDA PROJECTS -->
-<section class="tida-event">
-  <div class="tida-container">
-    
-    <div class="tida-header">
-      <div class="left">
-        <img src="images/fund.png" class="fund" alt=""> 
-        <h1>
-          Together for Inclusion,<br>
-          Development and Action <span>(TIDA)</span>
-        </h1>
-        <p class="subtitle">Community Engagement Event</p>
-      </div>
-
-      <div class="right">
-        <div class="badge">Featuring</div>
-        <h2>The<br>Together Plan</h2>
-      </div>
-    </div>
-
-    <div class="tida-images">
-      <div class="grid">
-        <img src="images/a.jpg" alt="Community support">
-        <img src="images/b.jpg" alt="Hands together">
-        <img src="images/c.jpg" alt="Unity hands">
-        <img src="images/d.jpg" alt="Family support">
-      </div>
-    </div>
-
-    <div class="tida-highlight">
-      Creating spaces where every family feels seen, heard and supported.
-    </div>
-
-    <p class="tida-description">
-      Bringing families, professionals and community partners together to build more inclusive communities.
-    </p>
-
-    <div class="tida-date"> </div>
-
-  </div>
 </section>
-    <!-- TIDA PROJECTS ENDS -->
-    <!-- Our Work Page -->
-         <section class="donations-area pt-100 pb-70" id="our">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Our past and ongoing projects</h2>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="donation-item">
-                            <div class="img">
-                                <img src="images/Youth.jpg" alt="Donation">
-                            </div>
-                            <div class="inner">
-                                <div class="top">
-                                    <h3>
-                                        Say No to Youth Violence Campaign
-                                    </h3>
-                                    <p>We engage in educational campaigns aimed at educating young people about the dangers of violence, promoting peacebuilding and non-violent conflict resolution within communities. Our work challenges all forms of violence- domestic, political and social -by raising awareness and encouranging open dialogue.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="donation-item">
-                            <div class="img">
-                                <img src="images/Ecowas.jpg" alt="Donation">
-                            </div>
-                            <div class="inner">
-                                <div class="top">
-                                    <h3>
-                                      Civic Engagement & Elections (ECOWAS initiatives)
-                                    </h3>
-                                    <p>We have actively involved in initiatives encouraging youth engagement in the democratic process. Promoted awareness around civic responsiblities and the importance of youth voices in shaping political outcomes and empowering people to shape communities through democratic processes.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<section class="section intro">
+    <div class="container">
+        <div class="wrap">
+            <p data-reveal>We work with women, children, young people, families and disabled people, creating opportunities for communities to have their voices heard, develop their potential, build collective power and shape the decisions and systems that affect their lives.</p>
+            <p class="lead-p" data-reveal>We believe lasting change happens when communities are not only supported but empowered to lead and influence change themselves.</p>
+        </div>
+    </div>
+</section>
 
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="donation-item">
-                            <div class="img">
-                                <img src="images/people.jpg" alt="Donation">
-                            </div>
-                            <div class="inner">
-                                <div class="top">
-                                    <h3>
-                                        Empowerment for People with Disabilities
-                                    </h3>
-                                    <p>We advocate for access to inclusive education, resources, and community support. From workshops to policy outreach, our work empowers people living with disabilities to thrive with dignity and equal opportunities.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="donation-item">
-                            <div class="img">
-                                <img src="images/Women.jpg" alt="Donation">
-                            </div>
-                            <div class="inner">
-                                <div class="top">
-                                    <h3>
-                                     Women and Girls’ Empowerment initiatives
-                                    </h3>
-                                    <p>Worked on projects focused on empowering girls through education, mentorship, and life skills training, addressing gender inquality and promoting leadership among young women</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="donation-item">
-                            <div class="img">
-                                <img src="images/Story.jpg" alt="Donation">
-                            </div>
-                            <div class="inner">
-                                <div class="top">
-                                    <h3>
-                                        The Story Campaign
-                                    </h3>
-                                    <p>Everyone’s voice matters! Participated in a storytelling initiatives that amplified the voices and experiences of young people, fostering empathy, inclusion, and community dialogue through personal narratives. Over hundres of people shared their stoies.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-    <!-- End Our Work Page -->
-
-        <!-- Gallery -->
-<section class="gallery-area pt-100 pb-70">
+<section class="section bg-paper">
     <div class="container">
         <div class="section-title">
-            <span class="sub-title">Our gallery</span>
+            <h2 class="h-xl" data-split>Our three areas of work</h2>
         </div>
-        <div class="row">
-
-            <div class="col-sm-6 col-lg-4">
-                <div class="gallery-item">
-                    <a href="images/gallery/1.jpeg" data-lightbox="roadtrip">
-                        <img src="images/gallery/1.jpeg" alt="Gallery">
-                        <i class="icofont-eye"></i>
-                    </a>
+        <div class="cards3">
+            <article class="proj" data-reveal>
+                <div class="zoom"><img src="images/d.jpg" alt="Story Circles and Community Dialogues" loading="lazy"></div>
+                <div class="body">
+                    <h3>Story Circles and Community Dialogues</h3>
+                    <p>Creating safe and welcoming spaces where migrant and diaspora communities can share experiences, build connections and use their stories to promote understanding and change.</p>
+                    <a class="btn btn--dark btn--sm" href="programmes.html#story-circles">Read More <i class="icofont-simple-right"></i></a>
                 </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-                <div class="gallery-item">
-                    <a href="images/gallery/3.jpeg" data-lightbox="roadtrip">
-                        <img src="images/gallery/3.jpeg" alt="Gallery">
-                        <i class="icofont-eye"></i>
-                    </a>
+            </article>
+            <article class="proj" data-reveal style="--d:.12s">
+                <div class="zoom"><img src="images/b.jpg" alt="Community Voice, Power and Action" loading="lazy"></div>
+                <div class="body">
+                    <h3>Community Voice, Power and Action</h3>
+                    <p>Supporting communities, particularly women and young people, to raise their voices, organise, campaign and influence the decisions and systems that affect their lives.</p>
+                    <a class="btn btn--dark btn--sm" href="programmes.html#community-voice">Read More <i class="icofont-simple-right"></i></a>
                 </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-                <div class="gallery-item">
-                    <a href="images/gallery/4.jpeg" data-lightbox="roadtrip">
-                        <img src="images/gallery/4.jpeg" alt="Gallery">
-                        <i class="icofont-eye"></i>
-                    </a>
+            </article>
+            <article class="proj" data-reveal style="--d:.24s">
+                <div class="zoom"><img src="images/c.jpg" alt="Women’s Leadership and Empowerment" loading="lazy"></div>
+                <div class="body">
+                    <h3>Women’s Leadership and Empowerment</h3>
+                    <p>Building the confidence, skills, networks and leadership of women from migrant and diaspora communities so they can take an active role in shaping their communities and wider society.</p>
+                    <a class="btn btn--dark btn--sm" href="programmes.html#womens-leadership">Read More <i class="icofont-simple-right"></i></a>
                 </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-                <div class="gallery-item">
-                    <a href="images/gallery/5.jpeg" data-lightbox="roadtrip">
-                        <img src="images/gallery/5.jpeg" alt="Gallery">
-                        <i class="icofont-eye"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-                <div class="gallery-item">
-                    <a href="images/gallery/gallery1.jpeg" data-lightbox="roadtrip">
-                        <img src="images/gallery/gallery1.jpeg" alt="Gallery">
-                        <i class="icofont-eye"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-                <div class="gallery-item">
-                    <a href="images/gallery/gallery4.jpeg" data-lightbox="roadtrip">
-                        <img src="images/gallery/gallery4.jpeg" alt="Gallery">
-                        <i class="icofont-eye"></i>
-                    </a>
-                </div>
-            </div>
-
+            </article>
         </div>
-
-        <!-- View Gallery Button -->
-        <div class="text-center mt-4">
-            <a href="gallery.html" class="btn btn-secondary">View All Images</a>
-        </div>
-
     </div>
 </section>
-        <!-- End Gallery -->
-    
 
-
-
-        <!-- Footer -->
-        <footer class="footer-area pt-100" id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="footer-item">
-                            <div class="footer-logo">
-                                <a class="logo" href="index.html">
-                                    <img src="images/img-logo-two.png" alt="Logo">
-                                </a>
-                                <p>TIDA (The Together Initiative for Diverse Abilities)</p>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icofont-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icofont-linkedin"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icofont-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="footer-item">
-                            <div class="footer-links">
-                                <h3>Quick links</h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icofont-simple-right"></i>
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="about.html">
-                                            <i class="icofont-simple-right"></i>
-                                            About
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#where">
-                                            <i class="icofont-simple-right"></i>
-                                            Projects
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#get">
-                                            <i class="icofont-simple-right"></i>
-                                            Donation
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="footer-item">
-                            <div class="footer-contact">
-                                <h3>Contact info</h3>
-                                <div class="contact-inner">
-                                    <ul>
-                                        <li>
-                                            <i class="icofont-location-pin"></i>
-                                            <a href="#">United Kingdom</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="contact-inner">
-                                    <ul>
-                                        <li>
-                                            <i class="icofont-email"></i>
-                                            <a href="#">admin@tidainitiative.org</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<section class="section" id="past">
+    <div class="container">
+        <div class="split" style="margin-bottom:clamp(40px,5vw,64px)">
+            <h2 data-split style="font-size:clamp(2rem,4vw,3.25rem)">Our Past Projects and Initiatives</h2>
+            <div class="copy">
+                <p data-reveal>Over the years, TIDA Initiative has implemented programmes and campaigns in different locations, working to promote social inclusion, youth participation, democratic engagement, gender equality and community empowerment.</p>
+            <p data-reveal>Our project history reflects our commitment to addressing social challenges, amplifying underrepresented voices and creating opportunities for individuals and communities to participate in positive social change. From youth violence prevention and democratic participation initiatives in West Africa to disability empowerment and community storytelling in the United Kingdom, these projects represent important milestones in our organisational journey.</p>
+            <p data-reveal>We continue to build on the experience and lessons gained through these initiatives as we pursue our mission of creating inclusive, empowered and resilient communities.</p>
+            </div>
+        </div>
+        <div class="cat-head" style="margin-bottom:24px"><h2 data-split>Past and Completed Projects</h2></div>
+        <p class="statement" data-reveal style="margin-left:0">The projects below are presented as historical initiatives. Their inclusion recognises work undertaken in previous years and does not imply that the activities are currently ongoing.</p>
+        <div class="proj-grid">
+            <article class="proj" data-reveal style="--d:0.00s">
+                <div class="zoom"><img src="images/Youth.jpg" alt="Say No to Youth Violence Campaign" loading="lazy"></div>
+                <div class="body">
+                    <span class="tag">2018 | Nigeria</span>
+                    <h3>Say No to Youth Violence Campaign</h3>
+                    <p>The Say No to Youth Violence Campaign was a youth-focused initiative addressing violence among young people and promoting peace, positive engagement and peaceful coexistence within communities.</p>
+                    <a class="btn btn--dark btn--sm" href="projects/say-no-to-youth-violence-campaign.html">Read More <i class="icofont-simple-right"></i></a>
                 </div>
-                <div class="copyright-area">
-                    <p>Copyright @<script>document.write(new Date().getFullYear())</script> TIDA. Designed By <a href="https://ayooladesmond.com.ng" target="_blank">Desmond</a></p>
+            </article>
+            <article class="proj" data-reveal style="--d:0.12s">
+                <div class="zoom"><img src="images/Ecowas.jpg" alt="Civic Engagement and Elections Empowerment" loading="lazy"></div>
+                <div class="body">
+                    <span class="tag">2019 | The Gambia and Nigeria</span>
+                    <h3>Civic Engagement and Elections Empowerment</h3>
+                    <p>This initiative took the form of a tour engaging young people in conversations about democracy, elections and their role in democratic processes. It aimed to encourage youth participation, civic awareness and active citizenship.</p>
+                    <a class="btn btn--dark btn--sm" href="projects/civic-engagement-and-elections-empowerment.html">Read More <i class="icofont-simple-right"></i></a>
+                </div>
+            </article>
+            <article class="proj" data-reveal style="--d:0.24s">
+                <div class="zoom"><img src="images/Women.jpg" alt="Women and Girls Empowerment Initiative" loading="lazy"></div>
+                <div class="body">
+                    <span class="tag">2020 | The Gambia</span>
+                    <h3>Women and Girls Empowerment Initiative</h3>
+                    <p>This initiative focused on the empowerment of women and girls, encouraging their participation, strengthening their voices and advancing opportunities for their development.</p>
+                    <a class="btn btn--dark btn--sm" href="projects/women-and-girls-empowerment-initiative.html">Read More <i class="icofont-simple-right"></i></a>
+                </div>
+            </article>
+            <article class="proj" data-reveal style="--d:0.00s">
+                <div class="zoom"><img src="images/people.jpg" alt="Empowerment for People with Disabilities" loading="lazy"></div>
+                <div class="body">
+                    <span class="tag">2023 | Manchester, United Kingdom</span>
+                    <h3>Empowerment for People with Disabilities</h3>
+                    <p>This initiative promoted the empowerment and inclusion of people with disabilities, with an emphasis on participation, visibility and recognition of their rights and contributions.</p>
+                    <a class="btn btn--dark btn--sm" href="projects/empowerment-for-people-with-disabilities.html">Read More <i class="icofont-simple-right"></i></a>
+                </div>
+            </article>
+            <article class="proj" data-reveal style="--d:0.12s">
+                <div class="zoom"><img src="images/Story.jpg" alt="The Story Campaign" loading="lazy"></div>
+                <div class="body">
+                    <span class="tag">2024 | Manchester, United Kingdom</span>
+                    <h3>The Story Campaign</h3>
+                    <p>The Story Campaign was a storytelling initiative intended to provide a platform for people to share their experiences, perspectives and lived realities, bringing community voices and stories into wider conversations.</p>
+                    <a class="btn btn--dark btn--sm" href="projects/the-story-campaign.html">Read More <i class="icofont-simple-right"></i></a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section bg-paper partners" id="partners">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="h-xl" data-split>Our Partners</h2>
+            <p data-reveal>We are grateful to the organisations that support and work alongside us to build stronger, more inclusive communities.</p>
+        </div>
+        <div class="partners__grid">
+            <div class="partner" data-reveal>
+                <img src="images/partners/national-lottery.jpg" alt="The National Lottery logo" loading="lazy" decoding="async">
+            </div>
+            <div class="partner" data-reveal style="--d:.12s">
+                <img src="images/partners/manchester-community-central.png" alt="Manchester Community Central – Voluntary, community and social enterprise sector logo" loading="lazy" decoding="async">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section linkband">
+    <div class="container">
+        <div class="linkband__grid">
+            <a href="programmes.html" data-reveal>Explore Our Programmes <i class="icofont-arrow-right"></i></a>
+            <a href="projects.html" data-reveal style="--d:.1s">Our Projects <i class="icofont-arrow-right"></i></a>
+            <a href="work-with-us.html" data-reveal style="--d:.2s">Get Involved <i class="icofont-arrow-right"></i></a>
+            <a href="contact.html" data-reveal style="--d:.3s">Contact Us <i class="icofont-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__grid">
+            <div>
+                <a href="index.html"><img class="flogo" src="images/img-logo-two.png" alt="TIDA"></a>
+                <p class="fname">Together for Inclusion and Development (TIDA)</p>
+                <p><strong style="color:#fff;font-weight:600">Amplifying voices. Building collective power. Influencing systemic change.</strong></p>
+                <p>Working with migrant and diaspora communities to advance inclusion, strengthen leadership and create lasting change.</p>
+                <div class="social">
+                    <a href="#" aria-label="Facebook"><i class="icofont-facebook"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="icofont-linkedin"></i></a>
+                    <a href="https://www.instagram.com/tidainitiative/" aria-label="Instagram"><i class="icofont-instagram"></i></a>
                 </div>
             </div>
-        </footer>
-        <!-- End Footer -->
-
-        <!-- Go Top -->
-        <div class="go-top">
-            <i class="icofont-arrow-up"></i>
-            <i class="icofont-arrow-up"></i>
+            <div>
+                <h3>Explore</h3>
+                <ul class="links">
+                    <li><a href="index.html"><i class="icofont-simple-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="icofont-simple-right"></i> About Us</a></li>
+                    <li><a href="programmes.html"><i class="icofont-simple-right"></i> Our Programmes</a></li>
+                    <li><a href="projects.html"><i class="icofont-simple-right"></i> Our Projects</a></li>
+                    <li><a href="impact.html"><i class="icofont-simple-right"></i> Our Impact</a></li>
+                    <li><a href="work-with-us.html"><i class="icofont-simple-right"></i> Get Involved</a></li>
+                    <li><a href="contact.html"><i class="icofont-simple-right"></i> Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Policies</h3>
+                <ul class="links">
+                    <li><a href="privacy-policy.html"><i class="icofont-simple-right"></i> Privacy Policy</a></li>
+                    <li><a href="safeguarding-policy.html"><i class="icofont-simple-right"></i> Safeguarding Policy</a></li>
+                    <li><a href="accessibility-statement.html"><i class="icofont-simple-right"></i> Accessibility Statement</a></li>
+                    <li><a href="complaints-policy.html"><i class="icofont-simple-right"></i> Complaints Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <ul class="contact">
+                    <li><i class="icofont-location-pin"></i><span>Manchester, United Kingdom</span></li>
+                    <li><i class="icofont-email"></i><a href="mailto:admin@tidainitiative.org">admin@tidainitiative.org</a></li>
+                </ul>
+            </div>
         </div>
-        <!-- End Go Top -->
+        <div class="copy">
+            <p>Copyright @<script>document.write(new Date().getFullYear())</script> TIDA. Designed By <a href="https://ayooladesmond.com.ng" target="_blank" rel="noopener">Desmond</a></p>
+        </div>
+    </div>
+</footer>
 
-        <!--=== Essential JS ===-->
-        <script src="js/js-jquery.min.js"></script>
-        <script src="js/js-bootstrap.bundle.min.js"></script>
-        <script src="js/js-form-validator.min.js"></script>
-        <script src="js/js-contact-form-script.js"></script>
-        <script src="js/js-jquery.ajaxchimp.min.js"></script>
-        <script src="js/js-jquery.meanmenu.js"></script>
-        <script src="js/js-jquery-modal-video.min.js"></script>
-        <script src="js/js-wow.min.js"></script>
-        <script src="js/js-lightbox.min.js"></script>
-        <script src="js/js-owl.carousel.min.js"></script>
-        <script src="js/js-odometer.min.js"></script>
-        <script src="js/js-jquery.appear.min.js"></script>
-        <script src="js/js-jquery.nice-select.min.js"></script>
-        <script src="js/js-custom.js"></script>
-    </body>
+<button class="go-top" type="button" aria-label="Back to top"><i class="icofont-arrow-up"></i></button>
+<script src="js/tida.js"></script>
+</body>
 </html>
+s

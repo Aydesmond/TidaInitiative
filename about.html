@@ -1,313 +1,155 @@
-
 <!DOCTYPE html>
-<html lang="zxx">
-    <head>
-        <!--=== Meta Tags ===-->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!--=== Link of CSS ===-->
-        <link rel="stylesheet" href="css/css-bootstrap.min.css">
-        <link rel="stylesheet" href="css/css-icofont.min.css">
-        <link rel="stylesheet" href="css/css-meanmenu.css">
-        <link rel="stylesheet" href="css/css-modal-video.min.css">
-        <link rel="stylesheet" href="css/fonts-flaticon.css">
-        <link rel="stylesheet" href="css/css-animate.min.css">
-        <link rel="stylesheet" href="css/css-lightbox.min.css">
-        <link rel="stylesheet" href="css/css-owl.carousel.min.css">
-        <link rel="stylesheet" href="css/css-owl.theme.default.min.css">
-        <link rel="stylesheet" href="css/css-odometer.min.css">
-        <link rel="stylesheet" href="css/css-nice-select.min.css">
-        <link rel="stylesheet" href="css/css-style.css">
-        <link rel="stylesheet" href="css/css-responsive.css">
-        <link rel="stylesheet" href="css/css-theme-dark.css">
-         <link rel="stylesheet" href="css/popup.css">
-
-        <!--=== Title & Favicon ===-->
-        <title>About Us - TIDA</title>
-        <link rel="icon" type="image/png" href="favicons/img-favicon.png">
-    <style>
-.about-page{padding:90px 0}
-.about-page .about-text{padding-right:30px}
-.about-page .about-text .lead-text{font-size:20px;font-weight:600;color:#013f22;line-height:1.7;margin-bottom:28px}
-.about-page .about-text p{font-size:16px;line-height:1.9;margin-bottom:26px}
-.about-page .about-text .closing{font-size:18px;font-weight:600;color:#ff6015}
-.about-sticky-img{position:sticky;top:110px}
-.about-sticky-img img{width:100%;border-radius:12px;box-shadow:0 15px 40px rgba(0,0,0,.15);display:block}
-@media (max-width:991px){.about-sticky-img{position:static;margin-top:30px}.about-page .about-text{padding-right:0}}
-</style>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="About Together for Inclusion and Development (TIDA)">
+    <meta name="theme-color" content="#013f22">
+    <title>About Us - TIDA</title>
+    <link rel="icon" type="image/png" href="favicons/img-favicon.png">
+    <link rel="stylesheet" href="css/css-icofont.min.css">
+    <link rel="stylesheet" href="css/tida.css">
+    <script>document.documentElement.classList.add('js')</script>
 </head>
-    <body>
+<body>
+<div class="progress" aria-hidden="true"></div>
 
-        
-        <!-- Navbar -->
-        <div class="navbar-area sticky-top">
-            <!-- Menu For Mobile Device -->
-            <div class="mobile-nav">
-                <a href="index.html" class="logo">
-                    <img src="images/img-logo-two.png" alt="Logo">
-                </a>
-            </div>
+<div class="topbar">
+    <div class="container">
+        <div class="loc"><i class="icofont-location-pin"></i><span>Manchester, United Kingdom</span></div>
+        <ul class="soc">
+            <li class="follow"><span>Follow Us:</span></li>
+            <li><a href="#" aria-label="Facebook"><i class="icofont-facebook"></i></a></li>
+            <li><a href="#" aria-label="Instagram"><i class="icofont-instagram"></i></a></li>
+            <li><a href="#" aria-label="LinkedIn"><i class="icofont-linkedin"></i></a></li>
+        </ul>
+    </div>
+</div>
 
-            <!-- Menu For Desktop Device -->
-            <div class="main-nav">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="images/img-logo.png" class="logo-one" alt="Logo">
-                            <img src="images/img-logo-two.png" class="logo-two" alt="Logo">
-                        </a>
-                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a href="index.html" class="nav-link">Home</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a href="about.html" class="nav-link">About Us</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="#where" class="nav-link">Where We Work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#get" class="nav-link">Get Involved</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#our" class="nav-link">Projects</a>
-                                  <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                                    <li><a class="dropdown-item" href="events/theTogetherPlan.html">The Together Plan</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="team.html" class="nav-link">Team</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#footer" class="nav-link">Contact</a>
-                            </li>
+<header class="nav">
+    <div class="container">
+        <a class="brand" href="index.html"><img src="images/img-logo.png" alt="TIDA"></a>
+        <div class="nav-actions">
+            <div class="menu-wrap" id="menu">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                    <li><a href="programmes.html">Our Programmes</a></li>
+                    <li><a href="inclusion.html">Our Commitment</a></li>
+                    <li class="has-sub">
+                        <a href="projects.html">Our Projects</a>
+                        <button class="sub-toggle" type="button" aria-label="Show Our Projects pages" aria-expanded="false"><i class="icofont-simple-down"></i></button>
+                        <ul class="sub">
+                            <li><a href="events/theTogetherPlan.html">The Together Plan</a></li>
+                            <li><a href="together-we-grow.html">Together We Grow</a></li>
                         </ul>
-                            <div class="side-nav">
-                                <a class="donate-btn" href="#">
-                                    Donate
-                                    <i class="icofont-heart-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+                    </li>
+                    <li><a href="impact.html">Our Impact</a></li>
+                    <li><a href="work-with-us.html">Work With Us</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</header>
+<main>
+<section class="page-hero">
+    <div class="container">
+        <h1 data-split>About Us</h1>
+        <ul class="crumbs" data-reveal style="--d:.5s"><li><a href="index.html">Home</a></li><li><span>About Us</span></li></ul>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="media">
+            <div class="frame"><div class="zoom" data-wipe><img src="images/about-about-main2.jpg" alt="TIDA community"></div></div>
+            <div>
+                <h2 data-split>Who We Are</h2>
+                <p data-reveal>Together for Inclusion and Development (TIDA) is a migrant-led community organisation based in Manchester.</p>
+                <p data-reveal>We work with migrant and diaspora communities to advance inclusion, strengthen community leadership and influence systemic change.</p>
+                <p data-reveal>Our work recognises the experiences, strengths, knowledge and potential within diverse communities. We create opportunities for people to connect, develop their voices, build confidence, access support and take collective action.</p>
+                <p data-reveal>We work with women, children, young people, families and disabled people, recognising that individuals and communities can experience multiple and overlapping barriers to participation and equality.</p>
             </div>
         </div>
-        <!-- End Navbar -->
+    </div>
+</section>
 
-        <!-- Page Title -->
-        <div class="page-title-area title-bg-eleven">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container">
-                        <div class="title-item">
-                            <h2>About Us</h2>
-                            <ul>
-                                <li>
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li>
-                                    <span>About Us</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+<section class="section bg-paper">
+    <div class="container">
+        <div class="duo">
+            <div class="vis" data-reveal>
+                <h2>Our Vision</h2>
+                <p>A society where all migrant and diaspora communities are included, represented, empowered and able to influence the decisions and systems that shape their lives.</p>
+            </div>
+            <div class="mis" data-reveal style="--d:.14s">
+                <h2>Our Mission</h2>
+                <p>To empower migrant and diaspora communities to overcome exclusion, strengthen their voices, develop leadership and influence systemic change towards a more inclusive and equitable society.</p>
             </div>
         </div>
-        <!-- End Page Title -->
+    </div>
+</section>
 
-        <!-- About Us -->
-        <section class="about-page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="about-text">
-                            <p class="lead-text">Together for Inclusion and Development (TIDA) is a community-focused social enterprise committed to building inclusive, empowered and connected communities.</p>
-                            <p>We work alongside individuals, families and organisations to address social inequalities, promote inclusion and create opportunities for positive change. Our work focuses on supporting marginalised and underrepresented communities, particularly families facing barriers to accessing services, information and opportunities.</p>
-                            <p>Through community projects, workshops, partnerships, advocacy and practical support, we bring people together, amplify voices and help communities access the support they need.</p>
-                            <p>We believe that everyone deserves to feel valued, heard and included. Our aim is to turn community needs into meaningful action and create lasting social impact.</p>
-                            <p class="closing">Together, we build stronger communities and create opportunities for everyone to thrive.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-sticky-img">
-                            <img src="images/about-about-main2.jpg" alt="TIDA community">
-                        </div>
-                    </div>
+<section class="section">
+    <div class="container">
+        <div class="section-title"><h2 class="h-xl" data-split>Our Values</h2></div>
+        <div class="values"><div class="value" data-reveal style="--d:0.0s"><h3>Inclusion</h3><p>Ensuring everyone has the opportunity to participate and belong.</p></div><div class="value" data-reveal style="--d:0.1s"><h3>Equality</h3><p>Challenging discrimination and addressing structural inequalities.</p></div><div class="value" data-reveal style="--d:0.2s"><h3>Empowerment</h3><p>Supporting people to recognise their strengths and take action.</p></div><div class="value" data-reveal style="--d:0.0s"><h3>Community Leadership</h3><p>Believing communities should lead the changes that affect them.</p></div><div class="value" data-reveal style="--d:0.1s"><h3>Collaboration</h3><p>Building meaningful partnerships and working collectively.</p></div><div class="value" data-reveal style="--d:0.2s"><h3>Accessibility</h3><p>Making our activities and opportunities welcoming and accessible to all.</p></div></div>
+    </div>
+</section>
+</main>
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__grid">
+            <div>
+                <a href="index.html"><img class="flogo" src="images/img-logo-two.png" alt="TIDA"></a>
+                <p class="fname">Together for Inclusion and Development (TIDA)</p>
+                <p><strong style="color:#fff;font-weight:600">Amplifying voices. Building collective power. Influencing systemic change.</strong></p>
+                <p>Working with migrant and diaspora communities to advance inclusion, strengthen leadership and create lasting change.</p>
+                <div class="social">
+                    <a href="#" aria-label="Facebook"><i class="icofont-facebook"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="icofont-linkedin"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="icofont-instagram"></i></a>
                 </div>
             </div>
-        </section>
-        <!-- End About Us -->
-
-        <!-- Footer -->
-        <footer class="footer-area pt-100" id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="footer-item">
-                            <div class="footer-logo">
-                                <a class="logo" href="index.html">
-                                    <img src="images/img-logo-two.png" alt="Logo">
-                                </a>
-                                <p>TIDA (The Together Initiative for Diverse Abilities)</p>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icofont-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icofont-linkedin"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icofont-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="footer-item">
-                            <div class="footer-links">
-                                <h3>Quick links</h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icofont-simple-right"></i>
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="about.html">
-                                            <i class="icofont-simple-right"></i>
-                                            About
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#where">
-                                            <i class="icofont-simple-right"></i>
-                                            Projects
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#get">
-                                            <i class="icofont-simple-right"></i>
-                                            Donation
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="footer-item">
-                            <div class="footer-contact">
-                                <h3>Contact info</h3>
-                                <div class="contact-inner">
-                                    <ul>
-                                        <li>
-                                            <i class="icofont-location-pin"></i>
-                                            <a href="#">United Kingdom</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="contact-inner">
-                                    <ul>
-                                        <li>
-                                            <i class="icofont-email"></i>
-                                            <a href="#">admin@tidainitiative.org</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="copyright-area">
-                    <p>Copyright @<script>document.write(new Date().getFullYear())</script> TIDA. Designed By <a href="https://ayooladesmond.com.ng" target="_blank">Desmond</a></p>
-                </div>
+            <div>
+                <h3>Explore</h3>
+                <ul class="links">
+                    <li><a href="index.html"><i class="icofont-simple-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="icofont-simple-right"></i> About Us</a></li>
+                    <li><a href="programmes.html"><i class="icofont-simple-right"></i> Our Programmes</a></li>
+                    <li><a href="projects.html"><i class="icofont-simple-right"></i> Our Projects</a></li>
+                    <li><a href="impact.html"><i class="icofont-simple-right"></i> Our Impact</a></li>
+                    <li><a href="work-with-us.html"><i class="icofont-simple-right"></i> Get Involved</a></li>
+                    <li><a href="contact.html"><i class="icofont-simple-right"></i> Contact Us</a></li>
+                </ul>
             </div>
-        </footer>
-        <!-- End Footer -->
-
-        
-
-        <!-- Go Top -->
-        <div class="go-top">
-            <i class="icofont-arrow-up"></i>
-            <i class="icofont-arrow-up"></i>
+            <div>
+                <h3>Policies</h3>
+                <ul class="links">
+                    <li><a href="privacy-policy.html"><i class="icofont-simple-right"></i> Privacy Policy</a></li>
+                    <li><a href="safeguarding-policy.html"><i class="icofont-simple-right"></i> Safeguarding Policy</a></li>
+                    <li><a href="accessibility-statement.html"><i class="icofont-simple-right"></i> Accessibility Statement</a></li>
+                    <li><a href="complaints-policy.html"><i class="icofont-simple-right"></i> Complaints Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <ul class="contact">
+                    <li><i class="icofont-location-pin"></i><span>Manchester, United Kingdom</span></li>
+                    <li><i class="icofont-email"></i><a href="mailto:admin@tidainitiative.org">admin@tidainitiative.org</a></li>
+                </ul>
+            </div>
         </div>
-        <!-- End Go Top -->
+        <div class="copy">
+            <p>Copyright @<script>document.write(new Date().getFullYear())</script> TIDA. Designed By <a href="https://ayooladesmond.com.ng" target="_blank" rel="noopener">Desmond</a></p>
+        </div>
+    </div>
+</footer>
 
-
-
-        <!--=== Essential JS ===-->
-        <script src="js/js-jquery.min.js"></script>
-        <script src="js/js-bootstrap.bundle.min.js"></script>
-        <script src="js/js-form-validator.min.js"></script>
-        <script src="js/js-contact-form-script.js"></script>
-        <script src="js/js-jquery.ajaxchimp.min.js"></script>
-        <script src="js/js-jquery.meanmenu.js"></script>
-        <script src="js/js-jquery-modal-video.min.js"></script>
-        <script src="js/js-wow.min.js"></script>
-        <script src="js/js-lightbox.min.js"></script>
-        <script src="js/js-owl.carousel.min.js"></script>
-        <script src="js/js-odometer.min.js"></script>
-        <script src="js/js-jquery.appear.min.js"></script>
-        <script src="js/js-jquery.nice-select.min.js"></script>
-        <script src="js/js-custom.js"></script>
-        
-
-        <!-- <script>var modal = document.getElementById('popup-modal');
-var btn = document.getElementById("open-popup-modal");
-var span = document.getElementsByClassName("modal-close")[0];
-
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-} -->
-</script>
-
-<!-- second script -->
-  <!-- <script>var modal = document.getElementById('popup-modal-2');
-var btn = document.getElementById("open-popup-modal-2");
-var span = document.getElementsByClassName("modal-close-2")[0];
-
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}</script> -->
-  
-    </body>
+<button class="go-top" type="button" aria-label="Back to top"><i class="icofont-arrow-up"></i></button>
+<script src="js/tida.js"></script>
+</body>
 </html>
